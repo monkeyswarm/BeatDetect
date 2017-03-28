@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F912D5B11E76F68800C25238 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F912D5B01E76F68800C25238 /* main.m */; };
+		F912D5BD1E77024100C25238 /* AnalysisAndDSP.c in Sources */ = {isa = PBXBuildFile; fileRef = F912D5B71E77024100C25238 /* AnalysisAndDSP.c */; };
+		F912D5BE1E77024100C25238 /* AnalysisController.m in Sources */ = {isa = PBXBuildFile; fileRef = F912D5BA1E77024100C25238 /* AnalysisController.m */; };
+		F912D5BF1E77024100C25238 /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = F912D5BC1E77024100C25238 /* AudioController.m */; };
+		F912D5C71E77373600C25238 /* BeatDetectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F912D5C61E77373600C25238 /* BeatDetectTests.m */; };
+		F912D6E71E7778AA00C25238 /* AnalysisAndDSP.c in Sources */ = {isa = PBXBuildFile; fileRef = F912D5B71E77024100C25238 /* AnalysisAndDSP.c */; };
+		F912D6E81E7778AD00C25238 /* AnalysisController.m in Sources */ = {isa = PBXBuildFile; fileRef = F912D5BA1E77024100C25238 /* AnalysisController.m */; };
+		F912D6E91E7778B000C25238 /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = F912D5BC1E77024100C25238 /* AudioController.m */; };
+		F9F84E3A1E7AF72C0000C77C /* BDPAudioUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F84E391E7AF72C0000C77C /* BDPAudioUtils.m */; };
+		F9F84E3B1E7AF72C0000C77C /* BDPAudioUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F84E391E7AF72C0000C77C /* BDPAudioUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F912D5AB1E76F68800C25238 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F912D5AD1E76F68800C25238 /* BeatDetect */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BeatDetect; sourceTree = BUILT_PRODUCTS_DIR; };
+		F912D5B01E76F68800C25238 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F912D5B71E77024100C25238 /* AnalysisAndDSP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AnalysisAndDSP.c; sourceTree = "<group>"; };
+		F912D5B81E77024100C25238 /* AnalysisAndDSP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysisAndDSP.h; sourceTree = "<group>"; };
+		F912D5B91E77024100C25238 /* AnalysisController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysisController.h; sourceTree = "<group>"; };
+		F912D5BA1E77024100C25238 /* AnalysisController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysisController.m; sourceTree = "<group>"; };
+		F912D5BB1E77024100C25238 /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
+		F912D5BC1E77024100C25238 /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
+		F912D5C41E77373600C25238 /* BeatDetectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatDetectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F912D5C61E77373600C25238 /* BeatDetectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatDetectTests.m; sourceTree = "<group>"; };
+		F912D5C81E77373600C25238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F84E381E7AF72C0000C77C /* BDPAudioUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPAudioUtils.h; sourceTree = "<group>"; };
+		F9F84E391E7AF72C0000C77C /* BDPAudioUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPAudioUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F912D5AA1E76F68800C25238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F912D5C11E77373600C25238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F912D5A41E76F68800C25238 = {
+			isa = PBXGroup;
+			children = (
+				F912D5AF1E76F68800C25238 /* BeatDetect */,
+				F912D5C51E77373600C25238 /* BeatDetectTests */,
+				F912D5AE1E76F68800C25238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F912D5AE1E76F68800C25238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F912D5AD1E76F68800C25238 /* BeatDetect */,
+				F912D5C41E77373600C25238 /* BeatDetectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F912D5AF1E76F68800C25238 /* BeatDetect */ = {
+			isa = PBXGroup;
+			children = (
+				F912D5B71E77024100C25238 /* AnalysisAndDSP.c */,
+				F912D5B81E77024100C25238 /* AnalysisAndDSP.h */,
+				F912D5B91E77024100C25238 /* AnalysisController.h */,
+				F912D5BA1E77024100C25238 /* AnalysisController.m */,
+				F912D5BB1E77024100C25238 /* AudioController.h */,
+				F912D5BC1E77024100C25238 /* AudioController.m */,
+				F912D5B01E76F68800C25238 /* main.m */,
+				F9F84E381E7AF72C0000C77C /* BDPAudioUtils.h */,
+				F9F84E391E7AF72C0000C77C /* BDPAudioUtils.m */,
+			);
+			path = BeatDetect;
+			sourceTree = "<group>";
+		};
+		F912D5C51E77373600C25238 /* BeatDetectTests */ = {
+			isa = PBXGroup;
+			children = (
+				F912D5C61E77373600C25238 /* BeatDetectTests.m */,
+				F912D5C81E77373600C25238 /* Info.plist */,
+			);
+			path = BeatDetectTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F912D5AC1E76F68800C25238 /* BeatDetect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F912D5B41E76F68800C25238 /* Build configuration list for PBXNativeTarget "BeatDetect" */;
+			buildPhases = (
+				F912D5A91E76F68800C25238 /* Sources */,
+				F912D5AA1E76F68800C25238 /* Frameworks */,
+				F912D5AB1E76F68800C25238 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeatDetect;
+			productName = BeatDetect;
+			productReference = F912D5AD1E76F68800C25238 /* BeatDetect */;
+			productType = "com.apple.product-type.tool";
+		};
+		F912D5C31E77373600C25238 /* BeatDetectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F912D5C91E77373600C25238 /* Build configuration list for PBXNativeTarget "BeatDetectTests" */;
+			buildPhases = (
+				F912D5C01E77373600C25238 /* Sources */,
+				F912D5C11E77373600C25238 /* Frameworks */,
+				F912D5C21E77373600C25238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeatDetectTests;
+			productName = BeatDetectTests;
+			productReference = F912D5C41E77373600C25238 /* BeatDetectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F912D5A51E76F68800C25238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Daniel Iglesia";
+				TargetAttributes = {
+					F912D5AC1E76F68800C25238 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F912D5C31E77373600C25238 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F912D5A81E76F68800C25238 /* Build configuration list for PBXProject "BeatDetect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F912D5A41E76F68800C25238;
+			productRefGroup = F912D5AE1E76F68800C25238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F912D5AC1E76F68800C25238 /* BeatDetect */,
+				F912D5C31E77373600C25238 /* BeatDetectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F912D5C21E77373600C25238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F912D5A91E76F68800C25238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F912D5BE1E77024100C25238 /* AnalysisController.m in Sources */,
+				F912D5B11E76F68800C25238 /* main.m in Sources */,
+				F9F84E3A1E7AF72C0000C77C /* BDPAudioUtils.m in Sources */,
+				F912D5BF1E77024100C25238 /* AudioController.m in Sources */,
+				F912D5BD1E77024100C25238 /* AnalysisAndDSP.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F912D5C01E77373600C25238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F912D6E81E7778AD00C25238 /* AnalysisController.m in Sources */,
+				F912D5C71E77373600C25238 /* BeatDetectTests.m in Sources */,
+				F9F84E3B1E7AF72C0000C77C /* BDPAudioUtils.m in Sources */,
+				F912D6E91E7778B000C25238 /* AudioController.m in Sources */,
+				F912D6E71E7778AA00C25238 /* AnalysisAndDSP.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F912D5B21E76F68800C25238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F912D5B31E76F68800C25238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F912D5B51E76F68800C25238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F912D5B61E76F68800C25238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F912D5CA1E77373600C25238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BeatDetectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iglesiaintermedia.BeatDetectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F912D5CB1E77373600C25238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BeatDetectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iglesiaintermedia.BeatDetectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F912D5A81E76F68800C25238 /* Build configuration list for PBXProject "BeatDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F912D5B21E76F68800C25238 /* Debug */,
+				F912D5B31E76F68800C25238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F912D5B41E76F68800C25238 /* Build configuration list for PBXNativeTarget "BeatDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F912D5B51E76F68800C25238 /* Debug */,
+				F912D5B61E76F68800C25238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F912D5C91E77373600C25238 /* Build configuration list for PBXNativeTarget "BeatDetectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F912D5CA1E77373600C25238 /* Debug */,
+				F912D5CB1E77373600C25238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F912D5A51E76F68800C25238 /* Project object */;
+}
